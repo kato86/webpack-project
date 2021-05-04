@@ -8,20 +8,18 @@
   },
   "babel": {
     "presets": [
-      "env",
-      "stage-2",
-      "react"
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.1.0",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1",
     "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-loader": "^4.0.2",
